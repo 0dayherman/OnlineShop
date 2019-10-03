@@ -1,16 +1,13 @@
 <?php 
 include "assets/template/header.php";
 if (isset($_SESSION['username'])) {
-}
-else{
+} else{
 	echo "<script>
 	alert('Anda belum login');
 	window.location.href='login.php';
 	</script>";
-
 }
 ?>
-
 <div class="container shadow pt-5 mb-5" style="margin-top: 120px; width: 600px;">
 	<center>
 	<h5>
@@ -34,7 +31,6 @@ else{
 	  <button type="submit" name="finish" class="btn btn-primary mb-2" style="width: 120px;">Kirim</button>
 	</form>
 </div>
-
 <?php
 include "assets/template/footer.php";
 ?>
