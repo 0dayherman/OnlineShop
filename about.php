@@ -3,10 +3,7 @@
 <?php include("assets/template/header.php"); ?>
 <?php include("config/config.php"); ?>
 
-<body>
-        
-
-                    
+<body>                    
 <div class="container mt-5 shadow">
 <h3 class="h3 text-center mb-5 pt-5" style="margin-top: 80px;">About Dev Tech</h3>
 
@@ -16,8 +13,7 @@
   <!--Grid column-->
   <div class="col-lg-6 col-md-12 px-4">
 
-    <!--First row-->
-    <div class="row">
+   <div class="row">
       <div class="col-1 mr-3">
         <i class="fa fa-shopping-cart fa-2x indigo-text"></i>
       </div>
@@ -26,8 +22,7 @@
         <p class="grey-text">Kami menjual semua yang berhubungan dengan komputer yang tentunya kualitas bagus dan juga harga pas.</p>
       </div>
     </div>
-    <!--/First row-->
-
+          
     <div style="height:30px"></div>
 
     <!--Second row-->
